@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+           body{
+            background-color: black;
+            background-position: center;
+            height: 100vh;
+            border:5px solid white;
+           
+           }
+           
+           header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+            width: 100%;
+           }
+           div{
+            color:aqua;
+            font-size: 50px;
+            text-decoration: underline;
+            margin-left: 50px;
+           }
+           nav li{
+            display: inline-block;
+            align-items: center;
+            padding: 20px;
+            margin-right: 50px;
+            font-size: 20px;
+            
+           }
+           nav li a{
+            color: aliceblue;
+           }
+           nav li a:hover{
+            color:aqua ;
+           }
+         .active a{
+            font-size: 30px;
+            color: aqua;
+         }
+         h1{
+            text-align: center;
+            font-size: 35px;
+            color: cadetblue;
+         }
+        .prj1 h3{
+            text-decoration: none;
+         }
+         .prj2{
+            margin-left: 600px;
+            margin-top: -500px;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+         Portfolio
+        </div>
+    <nav>
+        <ul>
+            <li><a href="index.html"> <span class="glyphicon glyphicon-home"></span>Home</a></li>
+            <li ><a href="aboutme.html"> <span class="glyphicon glyphicon-user"></span>About Me</a></li>
+            <li class="active" ><a href="project.html">Projects</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li ><a href="contact.html"><span class="glyphicon glyphicon-earphone"></span> Contact</a></li> 
+        </ul>
+    </nav>   
+</header>
+
+<h1>MY PROJECTS</h1>
+<div class="prj1">
+    <img src="hospital.jpg" height="400px" width="300px">
+    <h3>This is my first project.<br>I am using the water fall model<br> to develop this project.</h3>
+</div>
+<div class="prj2">
+    <img src="form.png" height="=100%px" width="400px">
+    <h4>This is my second project.<br></h4>
+</div>
+</body>
